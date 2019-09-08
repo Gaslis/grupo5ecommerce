@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 .fondoHeader{
-  background-color: rgb(213, 35, 35);
+  background-color: rgba(203, 203, 203, 0.82);
   text-align: center;
   color: white;
 }
