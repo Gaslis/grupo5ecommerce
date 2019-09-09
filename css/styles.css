@@ -1,13 +1,13 @@
 * {
 	box-sizing: border-box;
 }
-.fondoHeader{
+header{
   background-color: rgba(203, 203, 203, 0.82);
   text-align: center;
   color: white;
 }
 .logo{
-  height: 40px;
+  height: 45px;
 }
 .chamuyo{
   text-align: center;
@@ -30,15 +30,28 @@
   background-color: grey;
   border: none;
 }
+
+.botonChango{
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: red;
+  border: none;
+  font-size: 26px;
+}
+.botonChango:hover{
+  color: white;
+  background-color: black;
+}
 .tarjetasSinborde{
   border: none;
 }
 @media (max-width: 767px){
   .carouselMedia, aside{
     display: none;
-}
+  }
 }
 @media (min-width: 767px){
-  .menuHeaderMedia{
+  .menuMedia{
     display: none;
+}
 }
