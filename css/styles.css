@@ -6,6 +6,9 @@ header{
   text-align: center;
   color: white;
 }
+.alturaBanner{
+  height: 450px;
+}
 .logo{
   height: 45px;
 }
