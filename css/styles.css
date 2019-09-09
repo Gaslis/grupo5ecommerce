@@ -10,11 +10,14 @@ header{
   height: 450px;
 }
 .logo{
-  height: 45px;
+  width: 100%;
 }
 .chamuyo{
   text-align: center;
   padding: 50px 0px 50px 0px;
+}
+.tamño{
+	height: 450px;
 }
 .fin{
   background-color: black;
@@ -45,6 +48,18 @@ header{
   color: white;
   background-color: black;
 }
+main aside div button.btn {
+	text-align: left;
+	text-decoration: none;
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: none;
+  font-size: 18px;
+}
+button.btn:hover{
+	color: red;
+	background-color: rgba(255, 255, 255, 0);
+}
 .tarjetasSinborde{
   border: none;
 }
@@ -56,5 +71,5 @@ header{
 @media (min-width: 767px){
   .menuMedia{
     display: none;
-}
+	}
 }
