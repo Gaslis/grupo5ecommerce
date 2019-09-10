@@ -76,3 +76,9 @@ button.btn:hover{
     display: none;
 	}
 }
+.h1-faq{
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: red;
+}
