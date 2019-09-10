@@ -63,6 +63,9 @@ button.btn:hover{
 .tarjetasSinborde{
   border: none;
 }
+.anchoBanner{
+	height: 300px;
+}
 @media (max-width: 767px){
   .carouselMedia, aside{
     display: none;
