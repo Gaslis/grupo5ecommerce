@@ -9,7 +9,8 @@ header{
 .alturaBanner{
   height: 450px;
 }
-.logo{
+.logo,
+.logoCirculo{
   width: 100%;
 }
 .chamuyo{
@@ -64,7 +65,7 @@ button.btn:hover{
   border: none;
 }
 .anchoBanner{
-	height: 300px;
+	width: 100vw;
 }
 @media (max-width: 767px){
   .carouselMedia, aside{
@@ -75,6 +76,15 @@ button.btn:hover{
   .menuMedia{
     display: none;
 	}
+}
+@media (max-width: 480px){
+  .logo{
+    display: none;
+  }
+}@media (min-width: 480px){
+  .logoCirculo{
+    display: none;
+  }
 }
 .h1-faq{
 	text-align: center;
