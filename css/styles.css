@@ -37,7 +37,6 @@ header{
   background-color: grey;
   border: none;
 }
-
 .botonChango{
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0);
@@ -86,9 +85,18 @@ button.btn:hover{
     display: none;
   }
 }
+/* css del faq */
 .h1-faq{
 	text-align: center;
 	font-size: 28px;
 	font-weight: bold;
 	color: red;
+}
+
+/* css  del formulario */
+.botonFormulario{
+  text-decoration: none;
+  background-color: red;
+  border: none;
+	margin-left: 46%;
 }
