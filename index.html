@@ -11,15 +11,20 @@
     <div class="contaniner-fluid">
         <!-- barra de navegacion -->
       <header class="row">
-        <nav class="col 12 navbar navbar-light mt-1 mb-3">
+        <nav class="col 12 navbar navbar-light p-3">
           <div class="col-3 col-sm-4 col-md-3">
-            <img src="img/logo-graficar.png" alt="" class="logo">
-            <img src="img/logo-circulo.png" alt="" class="logoCirculo">
+            <a href="index.html">
+              <img src="img/logo-graficar.png" alt="" class="logo">
+              <img src="img/logo-circulo.png" alt="" class="logoCirculo">
+          </a>
           </div>
           <div class="col-5 col-sm-5 col-md-8">
             <form class="pt-3" action="index.html" method="post">
-              <div class="form-group">
-                <input type="text" class="form-control" name="" value="">
+              <div class="input-group">
+                <input type="text" class="form-control" name="" value="" placeholder="Encontra los productos que estas buscando...">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="addon-wrapping"><ion-icon name="search"></ion-icon></span>
+                  </div>
               </div>
             </form>
           </div>
@@ -34,6 +39,17 @@
           </div>
         </nav>
       </header>
+      <div class="row">
+        <nav class="col-6 primerNav">
+          <a href="">Productos</a>
+          <a href="contacto-consulta.html">Contacto</a>
+          <a href="faq.html">Faq</a>
+        </nav>
+        <nav class="col-6 segundoNav">
+          <a href="login.html">Ingresá  <ion-icon name="lock"></ion-icon></a>
+          <a href="formularioRegistro.html">Registrate  <ion-icon name="create"></ion-icon></a>
+        </nav>
+      </div>
 
           <!-- Carrusel de imagenes -->
       <section class="carouselMedia">
@@ -96,7 +112,7 @@
 <!-- Productos a la venta -->
           <section class="col-12 col-sm-12 col-md-9">
             <div class="row">
-              <div class="card venta col-12 col-sm-6 col-md-4 tarjetasSinborde" style="">
+              <div class="card venta col-12 col-sm-6 col-md-3 tarjetasSinborde" style="">
                 <img src="img/pen.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -104,7 +120,7 @@
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card venta col-12 col-sm-6 col-md-4 tarjetasSinborde" style="">
+              <div class="card venta col-12 col-sm-6 col-md-3 tarjetasSinborde" style="">
                 <img src="img/pen2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -112,7 +128,7 @@
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
               </div>
-              <div class="card venta col-12 col-sm-6 col-md-4 tarjetasSinborde" style="">
+              <div class="card venta col-12 col-sm-6 col-md-3 tarjetasSinborde" style="">
                 <img src="img/pen3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -120,7 +136,7 @@
                   <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
                 </div>
-                <div class="card venta col-12 col-sm-6 col-md-4 tarjetasSinborde" style="">
+                <div class="card venta col-12 col-sm-6 col-md-3 tarjetasSinborde" style="">
                   <img src="img/pen.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -128,7 +144,7 @@
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
-                <div class="card venta col-12 col-sm-6 col-md-4 tarjetasSinborde" style="">
+                <div class="card venta col-12 col-sm-6 col-md-3 tarjetasSinborde" style="">
                   <img src="img/pen2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -136,8 +152,24 @@
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                   </div>
                 </div>
-                <div class="card venta col-12 col-sm-6 col-md-4 tarjetasSinborde" style="">
+                <div class="card venta col-12 col-sm-6 col-md-3 tarjetasSinborde" style="">
                   <img src="img/pen3.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card venta col-12 col-sm-6 col-md-3 tarjetasSinborde" style="">
+                  <img src="img/pen.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+                <div class="card venta col-12 col-sm-6 col-md-3 tarjetasSinborde" style="">
+                  <img src="img/pen2.png" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -156,7 +188,7 @@
       <footer>
 <!-- Chamuyo con 3 iconos -->
         <section class="row chamuyo">
-          <div class="mb-4 banner">
+          <div class="mb-5 banner">
             <img src="img/bannerAbajoIndex.png" alt="" width="100%">
           </div>
           <article class="col-12 col-sm-4 col-md-4">

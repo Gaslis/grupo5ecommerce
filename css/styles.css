@@ -4,7 +4,28 @@
 header{
   background-color: rgba(203, 203, 203, 0.82);
   text-align: center;
-  color: white;
+}
+.primerNav{
+	background-color: rgb(203, 26, 26);
+	width: 100%;
+	text-align: left;
+	padding-left: 4%;
+	line-height: 24px;
+}
+.segundoNav{
+	background-color: rgb(203, 26, 26);
+	width: 100%;
+	text-align: right;
+	padding-right: 4%;
+	line-height: 24px;
+}
+div nav.segundoNav a,
+div nav.primerNav a
+{
+	text-decoration: none;
+	color: rgb(250, 209, 209);
+	padding: 15px;
+	font-size: 14px;
 }
 .alturaBanner{
   height: 450px;
@@ -40,7 +61,7 @@ header{
 .botonChango{
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0);
-  color: red;
+  color: rgb(203, 26, 26);
   border: none;
   font-size: 26px;
 }
@@ -57,7 +78,7 @@ main aside div button.btn {
   font-size: 18px;
 }
 button.btn:hover{
-	color: red;
+	color: rgb(203, 26, 26);
 	background-color: rgba(255, 255, 255, 0);
 }
 .tarjetasSinborde{
@@ -77,9 +98,13 @@ button.btn:hover{
 	}
 }
 @media (max-width: 480px){
-  .logo{
+  .logo,
+	.primerNav,
+	.segundoNav
+	{
     display: none;
   }
+
 }@media (min-width: 480px){
   .logoCirculo{
     display: none;

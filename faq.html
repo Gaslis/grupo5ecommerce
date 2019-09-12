@@ -10,29 +10,47 @@
   <body>
     <div class="contaniner-fluid">
         <!-- barra de navegacion -->
-      <header class="row">
-        <nav class="col 12 navbar navbar-light mt-1 mb-3">
-          <div class="col-3 col-sm-4 col-md-3">
-            <img src="img/logo-graficar.png" alt="" class="logo">
-          </div>
-          <div class="col-5 col-sm-5 col-md-8">
-            <form class="pt-3" action="index.html" method="post">
-              <div class="form-group">
-                <input type="text" class="form-control" name="" value="">
-              </div>
-            </form>
-          </div>
-          <!-- <div class="col-9 col-sm-3 col-md-3">
-            <span>contacto@graficar.com</span>
-            <span>+5411 5219 0469 / 4822 7255</span>
-            <span>Horario: Lunes a Viernes 9 a 18 hs.</span>
-          </div> -->
-          <div class="col-4 col-sm-3 col-md-1">
-            <button type="submit" class="btn btn-primary botonMenu menuMedia">☰</button>
-            <button type="submit" class="btn btn-primary botonChango"><ion-icon name="cart"></ion-icon></button>
-          </div>
-        </nav>
-      </header>
+        <header class="row">
+          <nav class="col 12 navbar navbar-light p-3">
+            <div class="col-3 col-sm-4 col-md-3">
+              <a href="index.html">
+                <img src="img/logo-graficar.png" alt="" class="logo">
+                <img src="img/logo-circulo.png" alt="" class="logoCirculo">
+            </a>
+            </div>
+            <div class="col-5 col-sm-5 col-md-8">
+              <form class="pt-3" action="index.html" method="post">
+                <div class="input-group">
+                  <input type="text" class="form-control" name="" value="" placeholder="Encontra los productos que estas buscando...">
+                  <div class="input-group-prepend">
+                      <span class="input-group-text" id="addon-wrapping"><ion-icon name="search"></ion-icon></span>
+                    </div>
+                </div>
+              </form>
+            </div>
+            <!-- <div class="col-9 col-sm-3 col-md-3">
+              <span>contacto@graficar.com</span>
+              <span>+5411 5219 0469 / 4822 7255</span>
+              <span>Horario: Lunes a Viernes 9 a 18 hs.</span>
+            </div> -->
+            <div class="col-4 col-sm-3 col-md-1">
+              <button type="submit" class="btn btn-primary botonMenu menuMedia">☰</button>
+              <button type="submit" class="btn btn-primary botonChango"><ion-icon name="cart"></ion-icon></button>
+            </div>
+          </nav>
+        </header>
+        <div class="row">
+          <nav class="col-6 primerNav">
+            <a href="">Productos</a>
+            <a href="contacto-consulta.html">Contacto</a>
+            <a href="faq.html">Faq</a>
+          </nav>
+          <nav class="col-6 segundoNav">
+            <a href="login.html">Ingresá  <ion-icon name="lock"></ion-icon></a>
+            <a href="formularioRegistro.html">Registrate  <ion-icon name="create"></ion-icon></a>
+          </nav>
+        </div>
+
 
           <!-- FAQ -->
           <br>
