@@ -150,5 +150,10 @@ footer section article a:hover{
   text-decoration: none;
   background-color: red;
   border: none;
-	margin-left: 46%;
+	color: white;
+	margin-left: 46%; /* revisar margin left */
+}
+.limitesFormu{
+	margin-left: 15%;
+	margin-right: 15%;
 }
