@@ -77,7 +77,7 @@ div nav.segundoNav a:hover{
   background-color: rgba(255, 255, 255, 0);
   color: #ea3030;
   /* border: none; */
-  font-size: 30px;
+  font-size: 25px;
 	border-radius: 50%;
 	border: 1px solid #ea3030;
 }
@@ -95,8 +95,8 @@ main aside div button.btn {
   font-size: 18px;
 }
 button.btn:hover{
-	color: rgb(203, 26, 26);
-	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	background-color: #ea3030;
 }
 .tarjetasSinborde{
   border: none;
