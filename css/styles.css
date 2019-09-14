@@ -2,27 +2,38 @@
 	box-sizing: border-box;
 }
 body{
- font-family: 'Open Sans', sans-serif;
+ font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+ /* 'Open Sans', sans-serif; */
 }
 header{
-  background-color: rgba(203, 203, 203, 0.82);
+  background-color: #eaeaea;
+	/* rgba(203, 203, 203, 0.82); */
   text-align: center;
 }
+.searchRedondo{
+	border-radius: 20px;
+}
+.barraRoja{
+	background-color: #ea3030;
+	/* rgb(203, 26, 26); */
+	line-height: 24px;
+	font-weight: 500;
+}
+div.barraRoja ion-icon,
+footer section article ion-icon.achicarIconos
+{
+	position: relative;
+	top: 2px; /*bajo los iconos 2 px */
+}
 .primerNav{
-	background-color: rgb(203, 26, 26);
 	width: 100%;
 	text-align: left;
 	padding-left: 4%;
-	line-height: 24px;
-	font-weight: 200;
 }
 .segundoNav{
-	background-color: rgb(203, 26, 26);
 	width: 100%;
 	text-align: right;
 	padding-right: 4%;
-	line-height: 24px;
-	font-weight: 200;
 }
 div nav.segundoNav a,
 div nav.primerNav a
@@ -64,13 +75,16 @@ div nav.segundoNav a:hover{
 .botonChango{
   text-decoration: none;
   background-color: rgba(255, 255, 255, 0);
-  color: rgb(203, 26, 26);
-  border: none;
-  font-size: 26px;
+  color: #ea3030;
+  /* border: none; */
+  font-size: 30px;
+	border-radius: 50%;
+	border: 1px solid #ea3030;
 }
 .botonChango:hover{
   color: white;
   background-color: black;
+	border: 1px solid white;
 }
 main aside div button.btn {
 	text-align: left;
@@ -90,8 +104,15 @@ button.btn:hover{
 .anchoBanner{
 	width: 100vw;
 }
+h4{
+	font-size: 15px;
+	margin-bottom: 20px;
+}
 footer section article ion-icon{
 	font-size: 40px;
+}
+footer section article ion-icon.achicarIconos{
+	font-size: 15px;
 }
 footer section article a{
 	text-decoration: none;
@@ -100,13 +121,20 @@ footer section article a{
 }
 footer section article a:hover{
 	color: rgb(203, 26, 26);
+	text-decoration: none;
 }
 .fin{
+	/* display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around; */
   background-color: black;
   color: white;
-  text-align: center;
+  text-align: left;
   font-size: 12px;
   margin: 0px;
+	line-height: 40px;
+	width: 100%;
+	padding-left: 15%;
 }
 .fin2{
   background-color: black;
